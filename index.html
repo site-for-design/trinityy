@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Trinity</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main>
+		<div class="bg-left"></div>
+		<div id="sidebar-left" class="sidebar">
+			<nav class="sidebar-inner">
+				<a class="logo" href="#">
+					<img src="img/logo.svg" alt="">
+				</a>
+				<ul class="main-menu">
+					<li><a href="#contacts">Контакты</a></li>
+					<li><a href="#stocks">Акции</a></li>
+					<li><a href="#price">Квартиры</a></li>
+					<li><a href="#about-project">О проекте</a></li>
+				</ul>
+				<div class="burger">
+					<label class="icon">
+				      <input type="checkbox">
+				      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+				        <path class="line--1 line--debug" d="M0 40h62c13 0 6 28-4 18L35 35"></path><path class="line--1" d="M0 40h62c13 0 6 28-4 18L35 35"></path>
+				        <path class="line--2 line--debug" d="M0 50h50"></path><path class="line--2" d="M0 50h50"></path>
+				        <path class="line--3 line--debug" d="M0 60h62c13 0 6-28-4-18L35 65"></path><path class="line--3" d="M0 60h62c13 0 6-28-4-18L35 65"></path>
+				      </svg>
+				    </label>
+				</div>
+			</nav>
+		</div>
+		<div class="bg-right"></div>
+		<div id="sidebar-right" class="sidebar">
+			<nav class="sidebar-inner">
+				<ul>
+					<li><a class="section-dot active" href="#main"></a></li>
+					<li><a class="section-dot" href="#about-project"></a></li>
+					<li><a class="section-dot" href="#advantages"></a></li>
+					<li><a class="section-dot" href="#layout"></a></li>
+					<li><a class="section-dot" href="#panorama"></a></li>
+					<li><a class="section-dot" href="#price"></a></li>
+					<li><a class="section-dot" href="#stocks"></a></li>
+					<li><a class="section-dot" href="#form"></a></li>
+					<li><a class="section-dot" href="#contacts"></a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="popup-form">
+			<div class="close">+</div>
+			<h3>Заказать обратный звонок</h3>
+			<form action="">
+				<div class="required-input">
+					<input type="text" name="sub_name" placeholder="ТЕЛЕФОН" class="subscription-input" required>
+				</div>
+				<div class="required-input">
+					<input type="email" name="sub_email" placeholder="ИМЯ" class="subscription-input" required>
+				</div>
+				<button type="submit" class="btn form-btn">отправить</button>
+			</form>
+			<div class="icons">
+				<a href="#" class="telegram">
+					<img src="img/icons/telegram.svg" alt="">
+				</a>
+				<a href="#" class="whatsapp">
+					<img src="img/icons/WhatsApp.svg" alt="">
+				</a>
+			</div>
+			<a href="tel:+88888888888" class="phone">+ 8 888 888 88 88</a>
+		</div>
+		<div class="overlay"></div>
+		<section id="main">
+			<div class="container">
+				<div class="content">
+					<div class="circle-btn">
+						<a href="#" class="text">
+							<span>узнать<br> больше о <br>проекте</span>
+							<img src="img/icons/white-ar.svg" alt="">
+						</a>
+					</div>
+					<h1>One <br>TrinityPlace</h1>
+					<p class="desc">комплекс премиум класса</p>
+				</div>
+				<a href="#about-project" class="scroll-wrapper">
+					<img src="img/icons/arrow-scroll.svg" alt="">
+				</a>
+			</div>
+		</section>
+		<section id="about-project">
+			<h2 class="main-title">особенный проект</h2>
+			<div class="slider-wrap">
+				<div class="slider-item">
+					<div class="img-wrap" style="background-image: url(img/about/about-1.png);">
+					</div>
+					<div class="text-block">
+						<span>
+							Дом премиум класса на
+							170 квартир в сердце
+							Петроградского района
+							Санкт-Петербурга
+						</span>
+					</div>
+				</div>
+				<div class="slider-item">
+					<div class="img-wrap" style="background-image: url(img/about/about-2.png);">
+					</div>
+					<div class="text-block">
+						<span>
+							Дом премиум класса на
+							170 квартир в сердце
+							Петроградского района
+							Санкт-Петербурга
+						</span>
+					</div>
+				</div>
+				<div class="slider-item">
+					<div class="img-wrap" style="background-image: url(img/about/about-3.png);">
+					</div>
+					<div class="text-block">
+						<span>
+							Дом премиум класса на
+							170 квартир в сердце
+							Петроградского района
+							Санкт-Петербурга
+						</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="advantages">
+			<div class="container">
+				<h2 class="main-title">
+					Готовые европейские
+					интерьеры
+				</h2>
+				<div class="advantages-wrap">
+					<div class="advantages-wrap__item">
+						<div class="img-wrap">
+							<img src="img/advantages/adv-1.png" alt="">
+						</div>
+						<div class="text-wrap">
+							<h3>СОВРЕМЕННЫЕ И КРАСИВЫЕ</h3>
+							<div class="desc mCustomScrollbar">
+								<p>
+									Устоявшийся на западе тренд на элитную недвижимость с отделкой подхватывает и наш рынок. Интерьеры One Trinity Place 
+									разработаны известной студией London 1508. 
+								</p>
+								<p>
+									Для современного Петербурга был создан минималистичный и утонченный стиль, в котором дизайнеры стремились к чистоте линий и строгой роскоши, не теряющей актуальность.
+								</p>
+								<p>
+									Для современного Петербурга был создан минималистичный и утонченный стиль, в котором дизайнеры стремились к чистоте линий и строгой роскоши, не теряющей актуальность.
+								</p>
+							</div>
+							<a class="btn more-btn">узнать больше</a>
+						</div>
+					</div>
+					<div class="advantages-wrap__item">
+						<div class="text-wrap">
+							<h3>ТЕХНОЛОГИЧНЫЕ</h3>
+							<div class="desc mCustomScrollbar">
+								<p>
+									В квартирах будет выполнена чистовая отделка, в которой используются высококачественные натуральные материалы, такие как дуб, бронза, мрамор. 
+								</p>
+								<p>
+									Сантехническое оборудование Villeroy&Boch и Duravit, высокотехнологичное кухонное наполнение, встроенные шкафы с подсветкой и множество незаметных, но важных мелочей сопровождают интерьер каждой квартиры.
+								</p>
+								<p>
+									Сантехническое оборудование Villeroy&Boch и Duravit, высокотехнологичное кухонное наполнение, встроенные шкафы с подсветкой и множество незаметных, но важных мелочей сопровождают интерьер каждой квартиры.
+								</p>
+							</div>
+							<a class="btn more-btn">узнать больше</a>
+						</div>
+						<div class="img-wrap">
+							<img src="img/advantages/adv-2.png" alt="">
+						</div>
+					</div>
+					<div class="advantages-wrap__item">
+						<div class="img-wrap">
+							<img src="img/advantages/adv-3.png" alt="">
+						</div>
+						<div class="text-wrap">
+							<h3>УДОБНЫЕ</h3>
+							<div class="desc mCustomScrollbar">
+								<p>
+									Преимуществом полной отделки, предусмотренной в нашем комплексе, являются не только удобство, экономия времени и денег, но 
+									и отсутствие шума от ремонтных работ в соседних квартирах. 
+								</p>
+								<p>
+									Проблема, которая часто преследует жильцов новостроек, обойдет вас стороной. 
+								</p>
+								<p>
+									Получив ключи, вы, не теряя времени, сможете заехать в свою квартиру и не испытывать дискомфорта от строительного шума.
+								</p>
+							</div>
+							<a class="btn more-btn">узнать больше</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="layout">
+			<h2 class="main-title">
+					Богатый внутренний мир
+				</h2>
+				<div class="slider-wrap">
+					<div class="slider-item">
+						<div class="img-wrap" style="background-image: url(img/layout/layout-1.png);">
+						</div>
+						<div class="text-block">
+							<h3>ИНФРАСТРУКТУРА</h3>
+							<div class="desc">
+								<p>
+									Современный темп жизни обязывает премиум проекты предоставлять 
+									не просто квадратные метры своим клиентам, но и функциональную инфраструктуру. 
+								</p>
+								<p>
+									Кроме дизайнерского просторного лобби 
+									и консьерж службы 5зведочного отеля, 
+									в комплексе так же будут располагаться: 
+								</p>
+								<p>
+									• внутренний сад с дизайнерски 
+									  ландшафтом <br>
+									• спортзал <br>
+									• детская игровая комната <br>
+									• кладовые <br>
+									• подземный паркинг <br>
+									• и несколько коммерческих помещений
+									  для нужд жильцов. 
+								</p>
+							</div>
+							<a class="btn more-btn white">узнать больше</a>
+						</div>
+					</div>
+					<div class="slider-item">
+						<div class="img-wrap" style="background-image: url(img/layout/layout-2.png">
+						</div>
+						<div class="text-block">
+							<h3>УДОБНЫЕ</h3>
+							<div class="desc">
+								<p>
+									Преимуществом полной отделки, предусмотренной в нашем комплексе, являются не только удобство, экономия времени и денег, но 
+									и отсутствие шума от ремонтных работ в соседних квартирах. 
+								</p>
+								<p>
+									Проблема, которая часто преследует жильцов новостроек, обойдет вас стороной. 
+								</p>
+								<p>
+									Получив ключи, вы, не теряя времени, сможете заехать в свою квартиру и не испытывать дискомфорта от строительного шума.
+								</p>
+							</div>
+							<a class="btn more-btn white">узнать больше</a>
+						</div>
+					</div>
+					<div class="slider-item">
+						<div class="img-wrap" style="background-image: url(img/layout/layout-3.png);">
+						</div>
+						<div class="text-block">
+							<h3>УДОБНЫЕ</h3>
+							<div class="desc">
+								<p>
+									Преимуществом полной отделки, предусмотренной в нашем комплексе, являются не только удобство, экономия времени и денег, но 
+									и отсутствие шума от ремонтных работ в соседних квартирах. 
+								</p>
+								<p>
+									Проблема, которая часто преследует жильцов новостроек, обойдет вас стороной. 
+								</p>
+								<p>
+									Получив ключи, вы, не теряя времени, сможете заехать в свою квартиру и не испытывать дискомфорта от строительного шума.
+								</p>
+							</div>
+							<a class="btn more-btn white">узнать больше</a>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section id="panorama">
+			<h2 class="main-title">Панорама для ценителей</h2>
+			<p class="main-desc">
+				Живописное окружение и ландшафтная архитектура соответствуют запросам влюбленных в северную столицу и ценящих европейскую атмосферу. <br>
+				Удачное расположение комплекса позволяет раскрыть потрясающие виды на зеленый Крестовский остров и Малую Невку. <br>
+				А взгляд во двор будет сопровождаться фонтаном и цветущими с ранней весны и до поздней осени растениями.
+			</p>
+			<div class="panorama-wrap">
+				
+			</div>
+		</section>
+		<section id="price">
+			<h2 class="main-title">Планировки и цены</h2>
+			<p class="main-desc">
+				Все планировки продуманы до мелочей и призваны стать комфортным оазисом вашей жизни. <br>
+				Предлагаем ознакомиться со свободными вариантами и минимальными ценами на них.
+			</p>
+			<ul class="price-nav">
+				<li data-filter="one" class="price-nav__item">1 спальня</li>
+				<li data-filter="two" class="price-nav__item">2 спальни</li>
+				<li data-filter="three" class="price-nav__item">3 спальни</li>
+				<li data-filter="four" class="price-nav__item">4 спальни</li>
+				<li data-filter="penthouse" class="price-nav__item">ПЕНТХАУСЫ</li>
+			</ul>
+			<div class="nice-select price-nav-mobile" tabindex="0">
+				<span class="current">1 спальня</span>
+				<ul class="list">
+					<li data-filter="one" data-value="one" class="price-nav__item option">1 спальня</li>
+					<li data-filter="two" data-value="two" class="price-nav__item option focus selected">2 спальни</li>
+					<li data-filter="three" data-value="three" class="price-nav__item option">3 спальни</li>
+					<li data-filter="four" data-value="four" class="price-nav__item option">4 спальни</li>
+					<li data-filter="penthouse" data-value="penthouse" class="price-nav__item option">ПЕНТХАУСЫ</li>
+				</ul>
+			</div>
+			<div class="price-slider">
+				<div class="price-slider__item two">
+					<div class="img-wrap">
+						<img src="img/price/amsterdam.png" alt="">
+					</div>
+					<div class="text-wrap">
+						<p class="sity">Амстердам</p>
+						<p class="price">от 24 млн.</p>
+					</div>
+				</div>
+				<div class="price-slider__item two">
+					<div class="img-wrap">
+						<img src="img/price/london.png" alt="">
+					</div>
+					<div class="text-wrap">
+						<p class="sity">Лондон</p>
+						<p class="price">от 32 млн.</p>
+					</div>
+				</div>
+				<div class="price-slider__item one penthouse">
+					<div class="img-wrap">
+						<img src="img/price/paris.png" alt="">
+					</div>
+					<div class="text-wrap">
+						<p class="sity">Париж</p>
+						<p class="price">от 21 млн.</p>
+					</div>
+				</div>
+				<div class="price-slider__item four penthouse">
+					<div class="img-wrap">
+						<img src="img/price/paris.png" alt="">
+					</div>
+					<div class="text-wrap">
+						<p class="sity">Париж</p>
+						<p class="price">от 21 млн.</p>
+					</div>
+				</div>
+			</div>
+			<a class="btn more-btn">узнать больше</a>
+		</section>
+		<section id="stocks">
+			<div class="container">
+				<div class="content">
+					<div class="circle-btn">
+						<a href="#" class="text">
+							<span>оставить <br>заявку</span>
+							<img src="img/icons/white-ar.svg" alt="">
+						</a>
+					</div>
+					<h2>Акции</h2>
+					<p class="desc">Для вашего удобства имеются варианты <br>рассрочек и ипотека в ведущих банках</p>
+					<p class="second-desc">А чтобы покупка была приятнее, мы подготовили для <br>вас индивидуальные новогодние скидки и подарки</p>
+				</div>
+			</div>
+		</section>
+		<section id="form">
+			<div class="container">
+				<div class="form-wrap">
+					<h3>Записаться на просмотр</h3>
+					<p class="desc">Запишитесь в наш шоу-рум, чтобы увидеть все <br>собственными глазами</p>
+					<form action="">
+						<div class="required-input">
+							<input type="text" name="sub_name" placeholder="Телефон" class="subscription-input" required>
+						</div>
+						<div class="required-input">
+							<input type="email" name="sub_email" placeholder="Имя" class="subscription-input" required>
+						</div>
+						<button type="submit" class="btn form-btn">отправить</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section id="contacts">
+			<div class="map-bg" id="map">
+
+			</div>
+			<div class="contacts-wrap">
+				<div class="logo">
+					<img src="img/logo.svg" alt="">
+				</div>
+				<p class="desc">
+					Если вам комфортнее общаться в мессенджерах,мы готовы ответить вам 
+					в Вотсап или Телеграме 
+				</p>
+				<div class="icons">
+					<a href="#" class="telegram">
+						<img src="img/icons/telegram.svg" alt="">
+					</a>
+					<a href="#" class="whatsapp">
+						<img src="img/icons/WhatsApp.svg" alt="">
+					</a>
+				</div>
+				<a href="tel:+88888888888" class="phone">+ 8 888 888 88 88</a>
+				<a class="btn more-btn white">обратный звонок</a>
+			</div>
+		</section>
+	</main>
+	<script>
+		function initMap() {
+		// Styles a map in night mode.
+		var uluru = {lat: 59.964556, lng: 30.280207};
+		var map = new google.maps.Map(document.getElementById('map'), {
+		center: uluru,
+		scrollwheel: false,
+		navigationControl: false,
+		mapTypeControl: false,
+		scaleControl: false,
+		draggable: false,
+		zoom: 17,
+		styles: [
+		    {
+		        "featureType": "all",
+		        "elementType": "all",
+		        "stylers": [
+		            {
+		                "hue": "#ffaa00"
+		            },
+		            {
+		                "saturation": "-33"
+		            },
+		            {
+		                "lightness": "10"
+		            }
+		        ]
+		    },
+		    {
+		        "featureType": "administrative.locality",
+		        "elementType": "labels.text.fill",
+		        "stylers": [
+		            {
+		                "color": "#9c5e18"
+		            }
+		        ]
+		    },
+		    {
+		        "featureType": "landscape.natural.terrain",
+		        "elementType": "geometry",
+		        "stylers": [
+		            {
+		                "visibility": "simplified"
+		            }
+		        ]
+		    },
+		    {
+		        "featureType": "road.highway",
+		        "elementType": "geometry",
+		        "stylers": [
+		            {
+		                "visibility": "simplified"
+		            }
+		        ]
+		    },
+		    {
+		        "featureType": "road.highway",
+		        "elementType": "labels.text",
+		        "stylers": [
+		            {
+		                "visibility": "on"
+		            }
+		        ]
+		    },
+		    {
+		        "featureType": "road.arterial",
+		        "elementType": "geometry",
+		        "stylers": [
+		            {
+		                "visibility": "simplified"
+		            }
+		        ]
+		    },
+		    {
+		        "featureType": "transit.line",
+		        "elementType": "all",
+		        "stylers": [
+		            {
+		                "visibility": "off"
+		            }
+		        ]
+		    },
+		    {
+		        "featureType": "water",
+		        "elementType": "geometry.fill",
+		        "stylers": [
+		            {
+		                "saturation": "-23"
+		            },
+		            {
+		                "gamma": "2.01"
+		            },
+		            {
+		                "color": "#f2f6f6"
+		            }
+		        ]
+		    },
+		    {
+		        "featureType": "water",
+		        "elementType": "geometry.stroke",
+		        "stylers": [
+		            {
+		                "saturation": "-14"
+		            }
+		        ]
+		    }
+		]
+		});
+		var marker = new google.maps.Marker({
+		position: uluru,
+		map: map,
+		icon: 'img/marker.png'
+		});
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD57b1klhTcVUYoGhkOf2h1ck2SKmTvNSQ&amp;callback=initMap" async="" defer=""></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

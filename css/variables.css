@@ -1,0 +1,113 @@
+section {
+  position: relative;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  max-width: 168em;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin-right: auto;
+  margin-left: auto;
+}
+.overlay {
+  cursor: pointer;
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: #000000;
+  opacity: 0.5;
+}
+.circle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 41.44rem;
+  height: 41.44rem;
+  border-radius: 50%;
+  border: 0.24rem solid rgba(255, 255, 255, 0.3);
+}
+.circle-btn .text {
+  cursor: pointer;
+  display: block;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: .2em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+}
+.circle-btn .text img {
+  display: block;
+  margin-top: 2.53em;
+  width: 2.75em;
+}
+.main-title {
+  width: 100%;
+  text-align: center;
+  color: #625e5d;
+  font-family: "Big Caslon";
+  font-size: 9.259rem;
+  font-weight: 500;
+  letter-spacing: 0.085em;
+  line-height: 1.124em;
+  text-transform: uppercase;
+}
+.btn {
+  cursor: pointer;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: .87em;
+  border-bottom: .07em solid #b3866f;
+  color: #b3866f;
+  font-family: "Open Sans";
+  font-size: 1.853rem;
+  font-weight: 400;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+.btn:after {
+  content: '';
+  background-image: url(../img/icons/orange-ar.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  width: 1.75em;
+  height: 1.2em;
+}
+.btn.white {
+  color: #fff;
+}
+.slick-track {
+  margin-left: 0 !important;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+  width: .232rem;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: .695rem;
+}
+.mCSB_inside > .mCSB_container {
+  margin-right: 3.6rem;
+}
+.mCSB_scrollTools {
+  width: 1.85rem;
+}
+.mCS-my-theme.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #fff;
+}
+.mCS-my-theme.mCSB_scrollTools .mCSB_draggerRail {
+  background-color: #888888;
+}
